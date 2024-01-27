@@ -34,7 +34,7 @@ function DrawBoard() {
 		for (let j = 0; j < COLS; j++) {
 			let pixel = board[i][j];
 
-			ctx.fillRect(i, j, SIZE, SIZE);
+			ctx.fillRect(i * SIZE, j * SIZE, SIZE, SIZE);
 		}
 	}
 }
